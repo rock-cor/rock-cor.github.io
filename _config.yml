@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Shengbo Gong's Online Home"
-description              : "Nothing"
+description              : "Keep acute, Keep cute."
 repository               : "rock-cor/rock-cor.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Shengbo Gong"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Emory University"
-  location         : "Atalanta, GA, US"
+  location         : "Atlanta, GA, US"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=E_8F3Z4AAAAJ"
