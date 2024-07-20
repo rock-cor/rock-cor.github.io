@@ -35,11 +35,12 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 <div class='paper-box-text' markdown="1">-->
 
 - [IJCAI 2024] [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and
-Condensation](https://arxiv.org/pdf/2402.03358) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white](https://github.com/Emory-Melody/awesome-graph-reduction)
-Mohammad Hashemi∗, **Shengbo Gong∗**, Juntong Ni, Wenqi Fan, B. Aditya Prakash, Wei Jin
+Condensation](https://arxiv.org/pdf/2402.03358) Mohammad Hashemi∗, **Shengbo Gong∗**, Juntong Ni, Wenqi Fan, B. Aditya Prakash, Wei Jin
+ [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emory-Melody/awesome-graph-reduction)
 
-- [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white](https://github.com/rockcor/NHGCN)
-**Shengbo Gong**, Jiajun Zhou, Chenxuan Xie, Qi Xuan
+- [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195) **Shengbo Gong**, Jiajun Zhou, Chenxuan Xie, Qi Xuan
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/NHGCN)
+
   
 <!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=E_8F3Z4AAAAJ&citation_for_view=E_8F3Z4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. </div></div>
