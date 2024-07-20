@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm first-year Ph.D student majoring Computer Science and Informatics at Emory University. I'm very fortunate to be supervised by Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//).
+I'm first-year Ph.D student majoring Computer Science and Informatics at Emory University, under the esteemed guidance of Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//). Before joining Emory, I received great academic training from Prof. [Yifei Yao](https://en.bme.sjtu.edu.cn/show-33-130.html) at Shanghai Jiao Tong University and Prof. [Qi Xuan](http://xuanqi-net.com/) at Zhejiang University of Technology.
+
 My research interest includes Graph Neural Networks (GNNs) and Graph Foundation models. 
 I'm currently working on Graph Condensation for future months.
 <a href='https://scholar.google.com/citations?user=E_8F3Z4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -34,10 +35,10 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 <div class='paper-box-text' markdown="1">-->
 
 - [IJCAI 2024] [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and
-Condensation](https://arxiv.org/pdf/2402.03358) 
+Condensation](https://arxiv.org/pdf/2402.03358) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white](https://github.com/Emory-Melody/awesome-graph-reduction)
 Mohammad Hashemi∗, **Shengbo Gong∗**, Juntong Ni, Wenqi Fan, B. Aditya Prakash, Wei Jin
 
-- [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195)
+- [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white](https://github.com/rockcor/NHGCN)
 **Shengbo Gong**, Jiajun Zhou, Chenxuan Xie, Qi Xuan
   
 <!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=E_8F3Z4AAAAJ&citation_for_view=E_8F3Z4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
