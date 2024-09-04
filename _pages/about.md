@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm first-year Ph.D student majoring Computer Science and Informatics at Emory University, coadvisored by Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//) and Prof. [Carl Yang](https://www.cs.emory.edu/~jyang71/). Before joining Emory, I received great academic training from Prof. [Yifei Yao](https://en.bme.sjtu.edu.cn/show-33-130.html) at Shanghai Jiao Tong University and Prof. [Qi Xuan](http://xuanqi-net.com/) at Zhejiang University of Technology.
+I'm first-year Ph.D. student majoring Computer Science and Informatics at Emory University, coadvisored by Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//) and Prof. [Carl Yang](https://www.cs.emory.edu/~jyang71/). Before joining Emory, I received great academic training from Prof. [Yifei Yao](https://en.bme.sjtu.edu.cn/show-33-130.html) at Shanghai Jiao Tong University and Prof. [Qi Xuan](http://xuanqi-net.com/) at Zhejiang University of Technology.
 
 My research interest includes Graph Neural Networks (GNNs) and Graph Foundation models. 
 I'm currently working on Graph Condensation for future months.
