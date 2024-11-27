@@ -27,6 +27,7 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
+- *2024.11*: Thrilled to obtain **Google Cloud Research Credits Award**, 2024.
 - *2024.04*: &nbsp;🎉🎉 Our survey on graph reduction got accepted by IJCAI 2024.
 
 # 📝 Selected Publications 
