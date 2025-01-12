@@ -42,6 +42,9 @@ Condensation](https://arxiv.org/pdf/2402.03358) Mohammad Hashemi∗, **Shengbo G
 - [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195) **Shengbo Gong**, Jiajun Zhou, Chenxuan Xie, Qi Xuan
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/NHGCN)
 
+- [TPAMI 2025] [	
+Clarify Confused Nodes Through Separated Learning](https://arxiv.org/pdf/2306.02285) Jiajun Zhou∗， **Shengbo Gong∗**, Chenxuan Xie, Shanqing Yu, Qi Xuan, Xiaoniu Yang
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GISec-Team/NCGNN)
   
 <!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=E_8F3Z4AAAAJ&citation_for_view=E_8F3Z4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. </div></div>
