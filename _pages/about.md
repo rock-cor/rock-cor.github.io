@@ -27,7 +27,8 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
-- *2025.01*: Our research paper on graph heterophily is accepted by TPAMI, 2025.
+- *2025.05, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
+- *2025.01*: &nbsp;🎉🎉 Our research paper on graph heterophily is accepted by TPAMI, 2025.
 - *2024.11*: Thrilled to obtain **Google Cloud Research Credits Award**, 2024.
 - *2024.04*: &nbsp;🎉🎉 Our survey on graph reduction got accepted by IJCAI 2024.
 
@@ -55,6 +56,7 @@ Condensation](https://arxiv.org/pdf/2402.03358) Mohammad Hashemi∗, **Shengbo G
 # 💬 Public Presentations
 - *2023.12*, ICDM workshop on blockchain: [Multi-triplet Feature Augmentation for Ponzi
 Scheme Detection in Ethereum](https://arxiv.org/pdf/2310.00856).
+
 
 <!--# 💻 Internships
 - Maybe 2 years later...-->
