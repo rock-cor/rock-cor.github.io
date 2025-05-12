@@ -27,7 +27,7 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
-- *2025.05, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
+- *2025.05*, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
 - *2025.01*: &nbsp;🎉🎉 Our research paper on graph heterophily is accepted by TPAMI, 2025.
 - *2024.11*: Thrilled to obtain **Google Cloud Research Credits Award**, 2024.
 - *2024.04*: &nbsp;🎉🎉 Our survey on graph reduction got accepted by IJCAI 2024.
