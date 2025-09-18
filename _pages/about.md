@@ -27,6 +27,7 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
+- *2025.09*, One benchmark paper [GC4NC](https://arxiv.org/abs/2406.16715) is accepted by NeurIPS 2025.
 - *2025.08*, One preprint about [Efficient GraphRAG](https://arxiv.org/abs/2508.02435) released in ArXiv.
 - *2025.08*, One preprint about [Efficient Graph Condensation](https://arxiv.org/abs/2502.17614) updated in ArXiv.
 - *2025.05*, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
@@ -38,6 +39,8 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 <!--<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">-->
+- [NeurIPS 2025] [GC4NC: A Benchmark Framework for Graph Condensation on Node Classification with New Insights](https://arxiv.org/abs/2406.16715) **Shengbo Gong∗**, Juntong Ni∗, Noveen Sachdeva, Carl Yang, Wei Jin
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/GC4NC/tree/main)
 
 - [TPAMI 2025] [Clarify Confused Nodes Through Separated Learning](https://arxiv.org/pdf/2306.02285) Jiajun Zhou∗， **Shengbo Gong∗**, Chenxuan Xie, Shanqing Yu, Qi Xuan, Xiaoniu Yang
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GISec-Team/NCGNN)
