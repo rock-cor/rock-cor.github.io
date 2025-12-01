@@ -27,11 +27,13 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
+
+- *2025.11*, One paper about [Efficient Graph Condensation](https://arxiv.org/abs/2502.17614) is accepted by KDD 2026.
+- *2025.10*, Thrilled to received NeurIPS travel funding.
 - *2025.09*, One benchmark paper [GC4NC](https://arxiv.org/abs/2406.16715) is accepted by NeurIPS 2025.
 - *2025.08*, One preprint about [Efficient GraphRAG](https://arxiv.org/abs/2508.02435) released in ArXiv.
-- *2025.08*, One preprint about [Efficient Graph Condensation](https://arxiv.org/abs/2502.17614) updated in ArXiv.
 - *2025.05*, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
-- *2025.01*: &nbsp;🎉🎉 Our research paper on graph heterophily is accepted by TPAMI, 2025.
+- *2025.01*: &nbsp;🎉🎉 My co-first research paper on graph heterophily is accepted by TPAMI, 2025.
 - *2024.11*: Thrilled to obtain **Google Cloud Research Credits Award**, 2024.
 - *2024.04*: &nbsp;🎉🎉 Our survey on graph reduction got accepted by IJCAI 2024.
 
