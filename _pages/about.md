@@ -19,9 +19,7 @@ redirect_from:
 
 I'm first-year Ph.D. student majoring Computer Science and Informatics at Emory University, coadvisored by Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//) and Prof. [Carl Yang](https://www.cs.emory.edu/~jyang71/). Before joining Emory, I received great academic training from Prof. [Yifei Yao](https://en.bme.sjtu.edu.cn/show-33-130.html) at Shanghai Jiao Tong University and Prof. [Qi Xuan](http://xuanqi-net.com/) at Zhejiang University of Technology.
 
-My research interest includes Graph Neural Networks (GNNs) and Graph Foundation models. 
-I'm currently working on Graph Condensation for future months.
-<a href='https://scholar.google.com/citations?user=E_8F3Z4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+My research interest includes Graph Neural Networks (GNNs) and Dataset-related topics. 
 
 My hobbies include physical activities such as swimming, hiking, and climbing, as well as intellectual pursuits like tabletop games and strategy games. I also enjoy high-reputation movies and books, which often inspire many of my academic ideas.
 
