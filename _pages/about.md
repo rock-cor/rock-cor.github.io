@@ -25,7 +25,7 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 
 # 🔥 News
-
+- *2026.04*, One paper about [Efficient RAG](https://arxiv.org/abs/2508.02435) is accepted by ACL Findings 2026.
 - *2025.11*, One paper about [Efficient Graph Condensation](https://arxiv.org/abs/2502.17614) is accepted by KDD 2026.
 - *2025.10*, Thrilled to received NeurIPS travel funding.
 - *2025.09*, One benchmark paper [GC4NC](https://arxiv.org/abs/2406.16715) is accepted by NeurIPS 2025.
