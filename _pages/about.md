@@ -39,6 +39,9 @@ My hobbies include physical activities such as swimming, hiking, and climbing, a
 
 <!--<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">-->
+- [ACL Findings 2026] [Beyond Chunks and Graphs: Retrieval-Augmented Generation through
+Triplet-Driven Thinking](https://arxiv.org/pdf/2508.02435) **Shengbo Gong∗**, Xianfeng Tang, Carl Yang and Wei jin
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emory-Melody/T2RAG)
 - [KDD 2026] [Scalable Graph Condensation with Evolving Capabilities](https://arxiv.org/abs/2502.17614) **Shengbo Gong∗**, Mohammad Hashemi∗, Juntong Ni, Carl Yang, Wei Jin
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/GECC)
 - [NeurIPS 2025] [GC4NC: A Benchmark Framework for Graph Condensation on Node Classification with New Insights](https://arxiv.org/abs/2406.16715) **Shengbo Gong∗**, Juntong Ni∗, Noveen Sachdeva, Carl Yang, Wei Jin
