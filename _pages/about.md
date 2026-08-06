@@ -44,51 +44,9 @@ redirect_from:
   </p>
 </section>
 
-<section id="citations" class="home-section citations-section">
-  <div class="section-heading">
-    <p class="section-heading__kicker">01 / Research impact</p>
-    <h2>Google Scholar Citations</h2>
-  </div>
-
-  <div class="citation-panel">
-    <div class="citation-panel__summary">
-      <div>
-        <span class="citation-panel__label">Total citations</span>
-        <strong>{{ site.data.citations.total }}</strong>
-      </div>
-      <p>
-        Static snapshot from
-        <a href="{{ site.data.citations.source }}" target="_blank" rel="noopener">Google Scholar</a>.
-        Data through <time datetime="{{ site.data.citations.as_of_iso }}">{{ site.data.citations.as_of }}</time>.
-      </p>
-    </div>
-
-    <div class="citation-chart">
-      <div class="citation-chart__axis" aria-hidden="true">
-        <span>150</span>
-        <span>100</span>
-        <span>50</span>
-        <span>0</span>
-      </div>
-      <ol class="citation-chart__bars" aria-label="Citations by year">
-        {% for citation in site.data.citations.years %}
-          <li aria-label="{{ citation.year }}: {{ citation.count }} citations">
-            <div class="citation-chart__track">
-              <span class="citation-chart__value" style="bottom: calc({{ citation.height }}% + 0.45rem);">{{ citation.count }}</span>
-              <span class="citation-chart__bar" style="height: {{ citation.height }}%;"></span>
-            </div>
-            <span class="citation-chart__year">{{ citation.year }}</span>
-          </li>
-        {% endfor %}
-      </ol>
-    </div>
-    <p class="citation-panel__note">2026 is year-to-date. Earlier citations are included in the total but are outside the profile's displayed annual chart.</p>
-  </div>
-</section>
-
 <section id="news" class="home-section">
   <div class="section-heading">
-    <p class="section-heading__kicker">02 / Latest</p>
+    <p class="section-heading__kicker">01 / Latest</p>
     <h2>News</h2>
   </div>
   <ul class="news-list">
@@ -105,7 +63,7 @@ redirect_from:
 
 <section id="publications" class="home-section">
   <div class="section-heading">
-    <p class="section-heading__kicker">03 / Research</p>
+    <p class="section-heading__kicker">02 / Research</p>
     <h2>Selected Publications</h2>
   </div>
   <p class="section-intro">Representative work spanning data-efficient LLMs, graph learning, and data-centric AI.</p>
@@ -117,7 +75,6 @@ redirect_from:
           <a href="{{ publication.paper }}" target="_blank" rel="noopener" aria-label="Open {{ publication.title }}">
             <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt }}" loading="lazy">
           </a>
-          <figcaption>{{ publication.figure_caption }}</figcaption>
         </figure>
         <div class="publication-card__content">
           <div class="publication-card__meta">
@@ -144,7 +101,7 @@ redirect_from:
 
 <section id="internships" class="home-section">
   <div class="section-heading">
-    <p class="section-heading__kicker">04 / Experience</p>
+    <p class="section-heading__kicker">03 / Experience</p>
     <h2>Internships</h2>
   </div>
   <div class="experience-row">
@@ -158,7 +115,7 @@ redirect_from:
 
 <section id="presentations" class="home-section">
   <div class="section-heading">
-    <p class="section-heading__kicker">05 / Speaking</p>
+    <p class="section-heading__kicker">04 / Speaking</p>
     <h2>Public Presentations</h2>
   </div>
   <div class="presentation-row">

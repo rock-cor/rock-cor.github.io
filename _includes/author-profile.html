@@ -122,6 +122,17 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+    <aside class="author__citation-card" aria-label="Google Scholar citations">
+      <a href="{{ site.data.citations.source }}" target="_blank" rel="noopener">Google Scholar</a>
+      <strong>{{ site.data.citations.total }}</strong>
+      <span>citations</span>
+      <div class="author__citation-bars">
+        {% for citation in site.data.citations.years %}
+          <i style="height: {{ citation.height }}%;" title="{{ citation.year }}: {{ citation.count }}"></i>
+        {% endfor %}
+      </div>
+      <time datetime="{{ site.data.citations.as_of_iso }}">Through {{ site.data.citations.as_of }}</time>
+    </aside>
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
