@@ -6,8 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Shengbo Gong's Online Home"
-description              : "Keep acute, Keep cute."
+title                    : "Shengbo Gong | Research"
+description              : "Ph.D. student at Emory University"
+url                      : "https://rock-cor.github.io"
 repository               : "rock-cor/rock-cor.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,6 +29,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=E_8F3Z4AAAAJ"
+  cv               : "/files/Shengbo_Gong_CV.pdf"
   email            : "shengbo.gong@emory.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

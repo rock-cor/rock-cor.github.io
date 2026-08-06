@@ -1,0 +1,17 @@
+total: 318
+as_of: "August 5, 2026"
+as_of_iso: "2026-08-05"
+source: "https://scholar.google.com/citations?user=E_8F3Z4AAAAJ&hl=en"
+years:
+  - year: 2023
+    count: 4
+    height: 2.65
+  - year: 2024
+    count: 52
+    height: 34.44
+  - year: 2025
+    count: 151
+    height: 100
+  - year: 2026
+    count: 106
+    height: 70.20

@@ -3,70 +3,166 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section id="about-me" class="home-section intro-section">
+  <p class="intro__eyebrow">Second-year Ph.D. student &middot; Emory University</p>
+  <h1 class="intro__title">Shengbo Gong</h1>
+  <p class="intro__statement">Data-efficient learning for language models and graphs.</p>
+  <p class="intro__lead">
+    I am a second-year Ph.D. student in Computer Science and Informatics at Emory University,
+    co-advised by Prof. <a href="https://www.cs.emory.edu/~wjin30/" target="_blank" rel="noopener">Wei Jin</a>
+    and Prof. <a href="https://www.cs.emory.edu/~jyang71/" target="_blank" rel="noopener">Carl Yang</a>.
+    Before joining Emory, I worked with Prof. <a href="https://en.bme.sjtu.edu.cn/show-33-130.html" target="_blank" rel="noopener">Yifei Yao</a>
+    at Shanghai Jiao Tong University and Prof. <a href="http://xuanqi-net.com/" target="_blank" rel="noopener">Qi Xuan</a>
+    at Zhejiang University of Technology.
+  </p>
 
-<span class='anchor' id='about-me'></span>
+  <div class="research-focus" aria-label="Research interests">
+    <span class="research-focus__label">Research interests</span>
+    <ul>
+      <li>Data-Efficient LLMs</li>
+      <li>Graph Learning</li>
+      <li>Data-Centric AI</li>
+    </ul>
+  </div>
 
-I'm first-year Ph.D. student majoring Computer Science and Informatics at Emory University, coadvisored by Prof. [Wei Jin](https://www.cs.emory.edu/~wjin30//) and Prof. [Carl Yang](https://www.cs.emory.edu/~jyang71/). Before joining Emory, I received great academic training from Prof. [Yifei Yao](https://en.bme.sjtu.edu.cn/show-33-130.html) at Shanghai Jiao Tong University and Prof. [Qi Xuan](http://xuanqi-net.com/) at Zhejiang University of Technology.
+  <div class="intro__actions">
+    <a class="action-link action-link--primary" href="{{ '/files/Shengbo_Gong_CV.pdf' | relative_url }}" target="_blank">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i> View CV
+    </a>
+    <a class="action-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+      <i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar
+    </a>
+  </div>
 
-My research interest includes Graph Neural Networks (GNNs) and Dataset-related topics. 
+  <p class="intro__personal">
+    Outside research, I enjoy swimming, hiking, climbing, tabletop games, strategy games, films, and books.
+  </p>
+</section>
 
-My hobbies include physical activities such as swimming, hiking, and climbing, as well as intellectual pursuits like tabletop games and strategy games. I also enjoy high-reputation movies and books, which often inspire many of my academic ideas.
+<section id="citations" class="home-section citations-section">
+  <div class="section-heading">
+    <p class="section-heading__kicker">01 / Research impact</p>
+    <h2>Google Scholar Citations</h2>
+  </div>
 
+  <div class="citation-panel">
+    <div class="citation-panel__summary">
+      <div>
+        <span class="citation-panel__label">Total citations</span>
+        <strong>{{ site.data.citations.total }}</strong>
+      </div>
+      <p>
+        Static snapshot from
+        <a href="{{ site.data.citations.source }}" target="_blank" rel="noopener">Google Scholar</a>.
+        Data through <time datetime="{{ site.data.citations.as_of_iso }}">{{ site.data.citations.as_of }}</time>.
+      </p>
+    </div>
 
-# 🔥 News
-- *2026.04*, One paper about [Efficient RAG](https://arxiv.org/abs/2508.02435) is accepted by ACL Findings 2026.
-- *2025.11*, One paper about [Efficient Graph Condensation](https://arxiv.org/abs/2502.17614) is accepted by KDD 2026.
-- *2025.10*, Thrilled to received NeurIPS travel funding.
-- *2025.09*, One benchmark paper [GC4NC](https://arxiv.org/abs/2406.16715) is accepted by NeurIPS 2025.
-- *2025.08*, One preprint about [Efficient GraphRAG](https://arxiv.org/abs/2508.02435) released in ArXiv.
-- *2025.05*, Thrilled to present Graph Reduction on SDM doctoral forum and received NSF travel funding.
-- *2025.01*: &nbsp;🎉🎉 My co-first research paper on graph heterophily is accepted by TPAMI, 2025.
-- *2024.11*: Thrilled to obtain **Google Cloud Research Credits Award**, 2024.
-- *2024.04*: &nbsp;🎉🎉 Our survey on graph reduction got accepted by IJCAI 2024.
+    <div class="citation-chart">
+      <div class="citation-chart__axis" aria-hidden="true">
+        <span>150</span>
+        <span>100</span>
+        <span>50</span>
+        <span>0</span>
+      </div>
+      <ol class="citation-chart__bars" aria-label="Citations by year">
+        {% for citation in site.data.citations.years %}
+          <li aria-label="{{ citation.year }}: {{ citation.count }} citations">
+            <div class="citation-chart__track">
+              <span class="citation-chart__value" style="bottom: calc({{ citation.height }}% + 0.45rem);">{{ citation.count }}</span>
+              <span class="citation-chart__bar" style="height: {{ citation.height }}%;"></span>
+            </div>
+            <span class="citation-chart__year">{{ citation.year }}</span>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+    <p class="citation-panel__note">2026 is year-to-date. Earlier citations are included in the total but are outside the profile's displayed annual chart.</p>
+  </div>
+</section>
 
-# 📝 Selected Publications 
+<section id="news" class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__kicker">02 / Latest</p>
+    <h2>News</h2>
+  </div>
+  <ul class="news-list">
+    <li><time>2026.04</time><span>Our work on <a href="https://arxiv.org/abs/2508.02435" target="_blank" rel="noopener">efficient RAG</a> was accepted to ACL Findings 2026.</span></li>
+    <li><time>2025.11</time><span>Our work on <a href="https://arxiv.org/abs/2502.17614" target="_blank" rel="noopener">efficient graph condensation</a> was accepted to KDD 2026.</span></li>
+    <li><time>2025.10</time><span>Received NeurIPS travel funding.</span></li>
+    <li><time>2025.09</time><span><a href="https://arxiv.org/abs/2406.16715" target="_blank" rel="noopener">GC4NC</a> was accepted to NeurIPS 2025.</span></li>
+    <li><time>2025.05</time><span>Presented graph reduction research at the SDM Doctoral Forum and received NSF travel funding.</span></li>
+    <li><time>2025.01</time><span>Our co-first-author work on graph heterophily was accepted to TPAMI.</span></li>
+    <li><time>2024.11</time><span>Received a Google Cloud Research Credits Award.</span></li>
+    <li><time>2024.04</time><span>Our graph reduction survey was accepted to IJCAI 2024.</span></li>
+  </ul>
+</section>
 
-<!--<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">-->
-- [ACL Findings 2026] [Beyond Chunks and Graphs: Retrieval-Augmented Generation through
-Triplet-Driven Thinking](https://arxiv.org/pdf/2508.02435) **Shengbo Gong**, Xianfeng Tang, Carl Yang and Wei jin
-  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emory-Melody/T2RAG)
-- [KDD 2026] [Scalable Graph Condensation with Evolving Capabilities](https://arxiv.org/abs/2502.17614) **Shengbo Gong∗**, Mohammad Hashemi∗, Juntong Ni, Carl Yang, Wei Jin
-  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/GECC)
-- [NeurIPS 2025] [GC4NC: A Benchmark Framework for Graph Condensation on Node Classification with New Insights](https://arxiv.org/abs/2406.16715) **Shengbo Gong∗**, Juntong Ni∗, Noveen Sachdeva, Carl Yang, Wei Jin
-  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/GC4NC/tree/main)
+<section id="publications" class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__kicker">03 / Research</p>
+    <h2>Selected Publications</h2>
+  </div>
+  <p class="section-intro">Representative work spanning data-efficient LLMs, graph learning, and data-centric AI.</p>
 
-- [TPAMI 2025] [Clarify Confused Nodes Through Separated Learning](https://arxiv.org/pdf/2306.02285) Jiajun Zhou∗， **Shengbo Gong∗**, Chenxuan Xie, Shanqing Yu, Qi Xuan, Xiaoniu Yang
-  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GISec-Team/NCGNN)
+  <div class="publication-list">
+    {% for publication in site.data.publications %}
+      <article class="publication-card">
+        <figure class="publication-card__figure">
+          <a href="{{ publication.paper }}" target="_blank" rel="noopener" aria-label="Open {{ publication.title }}">
+            <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt }}" loading="lazy">
+          </a>
+          <figcaption>{{ publication.figure_caption }}</figcaption>
+        </figure>
+        <div class="publication-card__content">
+          <div class="publication-card__meta">
+            <span class="venue venue--{{ publication.topic }}">{{ publication.venue }} {{ publication.year }}</span>
+          </div>
+          <h3><a href="{{ publication.paper }}" target="_blank" rel="noopener">{{ publication.title }}</a></h3>
+          <p class="publication-card__authors">{{ publication.authors }}</p>
+          <div class="publication-card__links">
+            <a class="action-link action-link--small" href="{{ publication.paper }}" target="_blank" rel="noopener">
+              <i class="fas fa-file-alt" aria-hidden="true"></i> Paper
+            </a>
+            {% if publication.code %}
+              <a class="action-link action-link--small" href="{{ publication.code }}" target="_blank" rel="noopener">
+                <i class="fab fa-github" aria-hidden="true"></i> Code
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="publication-note"><sup>*</sup> Equal contribution.</p>
+</section>
 
-- [IJCAI 2024] [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and
-Condensation](https://arxiv.org/pdf/2402.03358) Mohammad Hashemi∗, **Shengbo Gong∗**, Juntong Ni, Wenqi Fan, B. Aditya Prakash, Wei Jin
- [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emory-Melody/awesome-graph-reduction)
+<section id="internships" class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__kicker">04 / Experience</p>
+    <h2>Internships</h2>
+  </div>
+  <div class="experience-row">
+    <time>May-Aug 2026</time>
+    <div>
+      <h3>Applied Scientist Intern <span>Amazon</span></h3>
+      <p>Worked on foundation models for event streams and causal inference.</p>
+    </div>
+  </div>
+</section>
 
-- [CIKM 2023] [Neighborhood Homophily-based Graph Convolutional Network](https://dl.acm.org/doi/abs/10.1145/3583780.3615195) **Shengbo Gong**, Jiajun Zhou, Chenxuan Xie, Qi Xuan
-  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rockcor/NHGCN)
-
-
-  
-<!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=E_8F3Z4AAAAJ&citation_for_view=E_8F3Z4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. </div></div>
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**-->
-
-# 💬 Public Presentations
-- *2023.12*, ICDM workshop on blockchain: [Multi-triplet Feature Augmentation for Ponzi
-Scheme Detection in Ethereum](https://arxiv.org/pdf/2310.00856).
-
-
-<!--# 💻 Internships
-- Maybe 2 years later...-->
+<section id="presentations" class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__kicker">05 / Speaking</p>
+    <h2>Public Presentations</h2>
+  </div>
+  <div class="presentation-row">
+    <time>Dec 2023</time>
+    <p>ICDM Workshop on Blockchain: <a href="https://arxiv.org/abs/2310.00856" target="_blank" rel="noopener">Multi-triplet Feature Augmentation for Ponzi Scheme Detection in Ethereum</a>.</p>
+  </div>
+</section>

@@ -1,22 +1,21 @@
-# main links links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
 
+  - title: "Citations"
+    url: "/#citations"
+
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+    url: "/#publications"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
+
+  - title: "Presentations"
+    url: "/#presentations"
+
+  - title: "CV"
+    url: "/files/Shengbo_Gong_CV.pdf"
