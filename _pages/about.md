@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 <section id="about-me" class="home-section intro-section">
-  <p class="intro__eyebrow">Second-year Ph.D. student &middot; Emory University</p>
+  <p class="intro__eyebrow">Third-year Ph.D. student &middot; Emory University</p>
   <h1 class="intro__title">Shengbo Gong</h1>
   <p class="intro__statement">Data-efficient learning for language models and graphs.</p>
   <p class="intro__lead">
-    I am a second-year Ph.D. student in Computer Science and Informatics at Emory University,
+    I am a third-year Ph.D. student in Computer Science and Informatics at Emory University,
     co-advised by Prof. <a href="https://www.cs.emory.edu/~wjin30/" target="_blank" rel="noopener">Wei Jin</a>
     and Prof. <a href="https://www.cs.emory.edu/~jyang71/" target="_blank" rel="noopener">Carl Yang</a>.
     Before joining Emory, I worked with Prof. <a href="https://en.bme.sjtu.edu.cn/show-33-130.html" target="_blank" rel="noopener">Yifei Yao</a>
